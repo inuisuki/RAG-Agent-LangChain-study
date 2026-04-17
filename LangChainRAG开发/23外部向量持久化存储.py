@@ -4,15 +4,15 @@ from langchain_community.document_loaders import CSVLoader
 
 
 vector_store=Chroma(
-    collection_name="test",
-    embedding_function=DashScopeEmbeddings(),
-    persist_directory="./chroma_db"
+    collection_name="test", #当前向量存储名（数据库表名）
+    embedding_function=DashScopeEmbeddings(),   #文本转向量的嵌入模型
+    persist_directory="./chroma_db" #存储路径
 )
 
 loader = CSVLoader(
     file_path="./data/info.csv",
     encoding="utf-8",
-    source_column="scorce"
+    source_column="source"
 )
 
 documents=loader.load()
