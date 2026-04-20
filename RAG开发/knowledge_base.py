@@ -45,7 +45,6 @@ class KnowledgeBaseService(object):
             length_function=len
         )
 
-
     def upload_by_str(self,data,filename):
         md5_hex=get_string_md5(data)
         if(check_md5(md5_hex)):

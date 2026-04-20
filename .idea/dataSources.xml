@@ -8,5 +8,17 @@
       <jdbc-url>jdbc:sqlite:C:\Users\inuisuki\Desktop\AI大模型RAG智能体开发\LangChainRAG开发\chroma_db\chroma.sqlite3</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="chroma [2]" uuid="b1a9bdc2-3f52-479c-9b8a-6bbe65eea8a8">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:C:\Users\inuisuki\Desktop\AI大模型RAG智能体开发\RAG开发\chroma_db\chroma.sqlite3</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+      <libraries>
+        <library>
+          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.51.1/org/xerial/sqlite-jdbc/3.51.1.0/sqlite-jdbc-3.51.1.0.jar</url>
+        </library>
+      </libraries>
+    </data-source>
   </component>
 </project>

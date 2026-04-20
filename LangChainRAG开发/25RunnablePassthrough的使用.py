@@ -38,6 +38,3 @@ chain.invoke(input_text)
 #构建链 retriever ：输入：用户输入（str）；输出：向量库的检索 list【document】
 #promt：输入：用户提问+向量数据库的结果dict 输出：完整的提示词promptvalue
 print(chain)
-
-
-
